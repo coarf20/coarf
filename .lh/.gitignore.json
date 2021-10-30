@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1635555104044,
@@ -28,6 +28,10 @@
                 {
                     "date": 1635557035709,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n db.sqlite3\r\n db.sqlite3-journal\r\n media\r\n local.py\r\n+production.py\r\n \r\n # If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/\r\n # in your Git repository. Update and uncomment the following line accordingly.\r\n # <django-project-name>/staticfiles/\r\n"
+                },
+                {
+                    "date": 1635560763955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n db.sqlite3-journal\r\n media\r\n local.py\r\n production.py\r\n+.lh\r\n \r\n # If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/\r\n # in your Git repository. Update and uncomment the following line accordingly.\r\n # <django-project-name>/staticfiles/\r\n"
                 }
             ],
             "date": 1635555104044,
