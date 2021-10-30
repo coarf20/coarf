@@ -2,7 +2,8 @@ Plataforma de página web para COARF - Desarrollado en Django
 ________________________________________
 
 Autor del proyecto 
-•	Álvaro Rodríguez (@coarf20)
+
+  •	Álvaro Rodríguez (@coarf20)
 
 Instrucciones de uso
 _________________________________________________
