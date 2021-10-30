@@ -1,0 +1,18 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1635560054208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1635560054208,
+            "name": "Commit-0",
+            "content": "Plataforma de pagina web para coarf\r\n__________________________________________________________\r\nAutor del proyecto\r\n    * Alvaro Rodriguez\r\n\r\n\r\nInstrucciones de uso\r\n\r\nNota: python manage.py runserver --settings=coarf.settings.local\r\n\r\npip install -r requirements.txt\r\n\r\nNavergar a http://localhost:8000/"
+        }
+    ]
+}

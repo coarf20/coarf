@@ -1,0 +1,18 @@
+{
+    "sourceFile": "coarf/wsgi.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1635557361392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1635557361392,
+            "name": "Commit-0",
+            "content": "\"\"\"\r\nWSGI config for coarf project.\r\n\r\nIt exposes the WSGI callable as a module-level variable named ``application``.\r\n\r\nFor more information on this file, see\r\nhttps://docs.djangoproject.com/en/3.2/howto/deployment/wsgi/\r\n\"\"\"\r\n\r\nimport os\r\n\r\nfrom django.core.wsgi import get_wsgi_application\r\n\r\nos.environ.setdefault('DJANGO_SETTINGS_MODULE', 'coarf.settings.local')\r\n\r\napplication = get_wsgi_application()\r\n"
+        }
+    ]
+}
