@@ -3,11 +3,23 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1635560054208,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1635564406942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,10 @@\n-Plataforma de pagina web para coarf\r\n-__________________________________________________________\r\n-Autor del proyecto\r\n-    * Alvaro Rodriguez\r\n-\r\n-\r\n+Plataforma de página web para COARF\r\n+________________________________________\r\n+Plataforma desarrollada en django\r\n+Autor del proyecto \r\n+•\tAlvaro Rodriguez\r\n Instrucciones de uso\r\n-\r\n\\ No newline at end of file\n-Nota: python manage.py runserver --settings=coarf.settings.local\r\n-\r\n+_________________________________________________\r\n+Nota: correr el servidor con el commando python manage.py runserver --settings=coarf.settings.local\r\n pip install -r requirements.txt\r\n-\r\n-Navergar a http://localhost:8000/\n+Navegar a http://localhost:8000/\r\n"
+                },
+                {
+                    "date": 1635564433310,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,14 @@\n Plataforma de página web para COARF\r\n ________________________________________\r\n+\r\n Plataforma desarrollada en django\r\n+\r\n Autor del proyecto \r\n •\tAlvaro Rodriguez\r\n+\r\n Instrucciones de uso\r\n _________________________________________________\r\n Nota: correr el servidor con el commando python manage.py runserver --settings=coarf.settings.local\r\n pip install -r requirements.txt\r\n+\r\n Navegar a http://localhost:8000/\r\n"
+                },
+                {
+                    "date": 1635564537889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,9 @@\n-Plataforma de página web para COARF\r\n+Plataforma de página web para COARF - Desarrollado en Django\r\n ________________________________________\r\n \r\n-Plataforma desarrollada en django\r\n-\r\n Autor del proyecto \r\n-•\tAlvaro Rodriguez\r\n+•\tÁlvaro Rodríguez (@coarf20)\r\n \r\n Instrucciones de uso\r\n _________________________________________________\r\n Nota: correr el servidor con el commando python manage.py runserver --settings=coarf.settings.local\r\n"
                 }
             ],
             "date": 1635560054208,
